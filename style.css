@@ -6,7 +6,7 @@ body {
 
 
 .section1 {
-    background-image: linear-gradient(0deg, rgba(56, 38, 160, 0.3), rgba(132, 26, 194, 0.562)), url("fast.gif");
+    background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url("fast.gif");
     background-size: cover;
     height: 93vh;
     display: flex;
@@ -19,8 +19,15 @@ body {
 }
 
 .btn-primary{
-  background-color: darkblue;
+  background-color:blue;
   color: orange;
+}
+
+.btn-primary,
+.btn-header {
+    padding: 12px;
+    background-color: cadetblue;
+    font-weight: bold;
 }
 
 
@@ -200,41 +207,103 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 83vh;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 100%);
       margin: 36px;
     }
 
+    .icons {
+        margin-right: 70px;
+    }
+
+    .icons2 {
+        margin-bottom: 18px;
+    }
+
+    .list-tech {
+        display: flex;
+        font-size: 40px;
+        margin-right: 40px;
+        justify-content: center;
+    }
+
+    .list-tech li:hover,
+    .list-tech2 li:hover {
+        transform: scale(1.2) translateY(0.2rem);
+        -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
+        filter: drop-shadow(1.5px 1.5px 4px #222);
+        z-index: 20; 
+        cursor: pointer;
+    }
+
+    .h3-skills {
+        color: white;
+        font-size: 42px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .h3-skills2 {
+         color: white;
+        font-size: 42px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .list-tech2 {
+        display: flex;
+        font-size: 130px;
+        text-align: center;
+        margin-right: 120px;
+    }
+
     body .fa-html5 {
-      color: #f83e14;
+      color: #ff2f00;
       padding: 0 5px;
+      margin-right: 20px;
     }
     
     body .fa-css3-alt {
-      color: #113ce9;
+      color: #0033ff;
       padding: 0 5px;
+      margin-right: 20px;
     }
     
     body .fa-js {
-      color: #f0d420;
+      color: #ffdd00;
       padding: 0 5px;
+      margin-right: 20px;
     }
     
     body .fa-bootstrap {
-      color: #ad3a8b;
+      color: #ff00b3;
       padding: 0 5px;
+      margin-right: 20px;
     }
     
-
-
     body .fa-git-alt {
-      color: #f7330c;
+      color: #ff2a00;
       padding: 0 5px;
+      margin-right: 20px;
     }
 
-    .list-tech li {
+    .list-tech li,
+    .list-tech2 li {
       list-style-type: none;
+    }
+
+    .fa-react {
+        color: rgb(2, 192, 255);
+        margin-right: 30px;
+        margin-left: 100px;
+    }
+
+    .fa-node-js {
+        color: rgb(4, 255, 4);
     }
 
 
@@ -296,16 +365,42 @@ body {
       }
     }
 
-
     .footer {
-      background: #fff;
-    }
-    
-    .footer .footer-text {
-      font-weight: 700;
-      font-size: 18px;
-    }
-    
-    .footer .fab {
-      -webkit-transition: 0.2s ease-in-out;
-      transition: 0.2s ease-in-out;
+        background-color: #4C5F9A;
+        padding: 2rem 0;
+        margin: 0 36px 0 36px;
+        font-size: 1.4rem;
+        text-decoration: none; }
+
+
+        @media (max-width: 56.25em) {
+        .footer {
+            padding: 8rem 0; } }
+        .footer__navigation {
+          border-top: 1px solid #f1f1f1;
+          padding-top: 2rem;
+          display: inline-block; }
+
+        @media (max-width: 56.25em) {
+        .footer__navigation {
+            width: 100%;
+            text-align: center; } }
+        .footer__list {
+        list-style: none; 
+        text-decoration: none;}
+        .footer__item {
+          display: inline-block; }
+
+
+        .footer__copyright {
+          border-top: 1px solid #f1f1f1;
+          padding-top: 2rem;
+          float: right;
+          color: #f2f56a; }
+
+          @media (max-width: 56.25em) {
+            .footer__copyright {
+              padding-top: 1rem;
+              width: 100%;
+              float: none;
+              text-align: center; } }
