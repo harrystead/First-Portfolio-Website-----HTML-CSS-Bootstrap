@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -15,8 +15,38 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
     margin-bottom: 90px;
-    margin: 36px;
+    margin: 32px;
 }
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 5rem;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    opacity: 0.6;
+}
+
 
 .btn-primary{
   background-color:blue;
@@ -28,6 +58,7 @@ body {
     padding: 12px;
     background-color: cadetblue;
     font-weight: bold;
+    border-radius: 12px;
 }
 
 
@@ -203,7 +234,7 @@ body {
 
 
     .section3 {
-      background-image: url("giphy (3).gif");
+      background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75)), url("giphy (3).gif");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -213,7 +244,7 @@ body {
       height: 83vh;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 100%);
-      margin: 36px;
+      margin: 32px;
     }
 
     .icons {
@@ -236,6 +267,7 @@ body {
         transform: scale(1.2) translateY(0.2rem);
         -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
         filter: drop-shadow(1.5px 1.5px 4px #222);
+        filter: brightness(150%);
         z-index: 20; 
         cursor: pointer;
     }
@@ -262,31 +294,31 @@ body {
     }
 
     body .fa-html5 {
-      color: #ff2f00;
+      color: #c54124;
       padding: 0 5px;
       margin-right: 20px;
     }
     
     body .fa-css3-alt {
-      color: #0033ff;
+      color: #2143ca;
       padding: 0 5px;
       margin-right: 20px;
     }
     
     body .fa-js {
-      color: #ffdd00;
+      color: #c7b124;
       padding: 0 5px;
       margin-right: 20px;
     }
     
     body .fa-bootstrap {
-      color: #ff00b3;
+      color: #c71d94;
       padding: 0 5px;
       margin-right: 20px;
     }
     
     body .fa-git-alt {
-      color: #ff2a00;
+      color: #be3a1f;
       padding: 0 5px;
       margin-right: 20px;
     }
@@ -297,16 +329,62 @@ body {
     }
 
     .fa-react {
-        color: rgb(2, 192, 255);
+        color: rgb(34, 165, 209);
         margin-right: 30px;
         margin-left: 100px;
     }
 
     .fa-node-js {
-        color: rgb(4, 255, 4);
+        color: rgb(40, 196, 40);
     }
 
+    .section4 {
+        height: 73vh;
+        background-color: white;
+    }
 
+    .heading4 {
+        font-size: 35px;
+        color:  rgb(88, 54, 107);
+    }
+
+    .content4 {
+        text-align: center;
+        margin-top: 70px;
+        font-weight: 500;
+    }
+
+    .float-left, 
+    .float-left2 {
+        float: left;
+        font-size: 20px;
+    }
+
+    .float-left {
+        margin-top: 100px;
+    }
+
+    .float-right {
+        float: right;
+        height: 400px;
+        width: 400px;
+        margin-bottom: 90px;
+        margin-top: 40px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px 18px #888888;
+        transition: ease-in-out 0.4s;
+    }
+
+    .float-right:hover {
+        cursor: pointer;
+        transform: scale(1.2) translateY(0.2rem);
+        -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
+        filter: drop-shadow(1.5px 1.5px 4px #222);
+        filter: brightness(100%);
+        z-index: 20; 
+    }
+    
 
 
     * {
@@ -338,7 +416,7 @@ body {
     /* Style the container/contact section */
     .container {
       border-radius: 5px;
-      background-color: #f2f2f2;
+      background-color: white;
       padding: 10px;
     }
     
@@ -368,7 +446,7 @@ body {
     .footer {
         background-color: #4C5F9A;
         padding: 2rem 0;
-        margin: 0 36px 0 36px;
+        margin: 0 32px 32px 32px;
         font-size: 1.4rem;
         text-decoration: none; }
 
