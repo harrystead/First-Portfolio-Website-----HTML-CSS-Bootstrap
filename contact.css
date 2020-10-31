@@ -40,14 +40,14 @@
     opacity: 0.8;
   }
   
-  /* Style the container/contact section */
+
   .container {
     border-radius: 5px;
     background-color: white;
     padding: 10px;
   }
   
-  /* Create two columns that float next to eachother */
+
   .column {
     float: left;
     width: 50%;
@@ -55,17 +55,20 @@
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 56.25em) {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-  }
+
+    @media screen and (max-width: 56.25em) {
+      .img-greet {
+        margin-left: 5px;
+      }}

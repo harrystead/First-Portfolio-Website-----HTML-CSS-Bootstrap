@@ -237,6 +237,8 @@ nav {
       font-size: 2rem;
       font-weight: 100; }
 
+         
+
 
     .section3 {
       background-image: linear-gradient(to right bottom, rgba(101, 29, 110, 0.75), rgba(18, 76, 114, 0.75)), url("giphy (3).gif");
@@ -266,6 +268,7 @@ nav {
         margin-right: 40px;
         justify-content: center;
     }
+            
 
     .list-tech li:hover,
     .list-tech2 li:hover {
@@ -283,13 +286,15 @@ nav {
         text-align: center;
         padding-bottom: 25px;
     }
+              
 
     .h3-skills2 {
-         color: white;
+        color: white;
         font-size: 42px;
         text-align: center;
         padding-bottom: 25px;
     }
+
 
     .list-tech2 {
         display: flex;
@@ -297,6 +302,7 @@ nav {
         text-align: center;
         margin-right: 120px;
     }
+         
 
     body .fa-html5 {
       color: #c54124;
@@ -371,6 +377,11 @@ nav {
         margin-top: 100px;
     }
 
+    .float-left2 {
+      margin-top: 30px;
+      
+    }
+
     .float-right {
         float: right;
         height: 400px;
@@ -398,6 +409,21 @@ nav {
         margin: 0 32px 32px 32px;
         font-size: 1.4rem;
         text-decoration: none; }
+
+    .fa-github,
+    .fa-linkedin {
+      color: white;
+    }
+
+    .fa-github:hover,
+    .fa-linkedin:hover {
+      opacity: 0.6;
+    }
+
+    .footer-link  {
+      color: white;
+      text-decoration: none;
+    }
 
 
         @media (max-width: 56.25em) {
@@ -431,3 +457,33 @@ nav {
               width: 100%;
               float: none;
               text-align: center; } }
+              @media (max-width: 56.25em) {
+                .list-tech {
+                font-size: 30px;
+                position: relative;
+                right: -110px;
+                     }
+                     @media (max-width: 56.25em) {
+                      .h3-skills {
+                      font-size: 21px;
+                      margin-left: 170px;
+                     }
+                     @media (max-width: 56.25em) {
+                      .h3-skills2 {
+                        font-size: 21px;
+                        margin-right:160px;
+                        }
+                        @media (max-width: 56.25em) {
+                          .list-tech2 {
+                          font-size: 105px;
+                         position: relative;
+                          left: -80px;
+                      }
+
+                      @media (max-width: 56.25em) {
+                        .float-right {
+                          margin-right: 50px;
+                       
+                    }
+      
+   
