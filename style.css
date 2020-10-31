@@ -103,6 +103,10 @@ nav {
     letter-spacing: 1px;
 }
 
+#portfolio2 {
+  margin-top: -120px;
+}
+
 .row {
     max-width: 70rem;
     margin: 0 auto; }
@@ -134,8 +138,9 @@ nav {
     
   .card {
     position: relative;
-    right: -200px;
-    height: 20rem; 
+    justify-content: center;
+    right: -450px;
+    height: 20.1rem; 
     overflow: hidden;
     margin: 50px 0 70px 0;
 }
@@ -151,7 +156,7 @@ nav {
       border-radius: 3px;
       overflow: hidden;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
-}
+    }
 
     .card__side--front {
         background-color: #fff; }
@@ -352,6 +357,7 @@ nav {
     .section4 {
         height: 73vh;
         background-color: white;
+        margin-bottom: 60px;
     }
 
     .heading4 {
@@ -413,6 +419,8 @@ nav {
     .fa-github,
     .fa-linkedin {
       color: white;
+      text-decoration: none;
+      display: flex;
     }
 
     .fa-github:hover,
@@ -423,12 +431,20 @@ nav {
     .footer-link  {
       color: white;
       text-decoration: none;
+      display: flex;
     }
 
 
+       @media (max-width: 56.25em) {
+      .float-right {
+        margin-right: 50px;
+     
+  }
+
         @media (max-width: 56.25em) {
         .footer {
-            padding: 8rem 0; } }
+            padding: 8rem 0; 
+            margin-top: 460px; }
         .footer__navigation {
           border-top: 1px solid #f1f1f1;
           padding-top: 2rem;
@@ -459,7 +475,7 @@ nav {
               text-align: center; } }
               @media (max-width: 56.25em) {
                 .list-tech {
-                font-size: 30px;
+                font-size: 20px;
                 position: relative;
                 right: -110px;
                      }
@@ -475,7 +491,7 @@ nav {
                         }
                         @media (max-width: 56.25em) {
                           .list-tech2 {
-                          font-size: 105px;
+                          font-size: 70px;
                          position: relative;
                           left: -80px;
                       }
@@ -485,5 +501,17 @@ nav {
                           margin-right: 50px;
                        
                     }
+
+                    @media (max-width: 56.25em) {
+                      .card {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        left: 80px;
+                        width: 250px;
+
+                    }
+
       
    
