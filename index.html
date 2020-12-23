@@ -1,229 +1,391 @@
+
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/gearbox-static.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a668e576e0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
-    <title>Harry's Portfolio</title>
+    <link rel="stylesheet" href="icon-font.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Harry J. Stead | Front End Engineer</title>
 </head>
+
 <body>
-
-    <div class="section1" id="section1">
-        <nav>
-            <div class="navbar">
-                <ul class="nav-list">
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="content1">
-          <h2 class="hero_heading">Harry J. Stead</h2>
-          <h3 class="hero_description">Front-End Developer</h3>
-          <a href="#portfolio">
-            <button class="btn2btn btn-primary btn-header">
-            SEE MY PROJECTS
-            </button></a>
-        </div>
+    <!-- preload -->
+    <div class="header-img">
+        <img style="display: none;" src="images/fast.gif" alt="front-gif">
     </div>
 
-    <div class="heading-cards" id="heading-cards"><h1><i class="fas fa-grip-lines"></i> PROJECT PORTFOLIO <i class="fas fa-grip-lines"></i></h1></div>
-    <div class="row" id="portfolio">
-        <div class="col-1-of-3">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <div class="card__picture card__picture--1">
-                         
-                    </div>
-                    <h4 class="card__heading">
-                        <span class="card__heading-span card__heading-span--1">Project One</span>
-                    </h4>
-                    <div class="card__details">
-                        <ul>
-                            <li>1.</li>
-                            <li>2.</li>
-                            <li>3.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card__side card__side--back card__side--back-1">
-                    <div class="card__cta">
-                        <div class="card__price-box">
-                            <p class="card__price-only">Project Description</p>
-                            <p class="card__price-value">hellohellohello</p>
+    <header class="header">
+        <div class="header__logo-box">
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Harry J. Stead</span>
+                <span class="heading-primary--sub">Front End Engineer</span>
+            </h1>
+
+            <a href="#projects" class="btn btn--white btn--animated smooth-goto">See Projects</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-tours" id="projects">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Project Portfolio
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-1">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <img src="images\giphy (1).gif" class="card__svg-icon" alt="">
+                            <h4 class="card__heading">
+
+                                <span class="card__heading-span--1">
+                                    Fixture Bettings
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>CSS</li>
+                                    <li>Tailwind</li>
+                                    <li>JavaScript</li>
+                                    <li>Api-Sports & The-Odds-Api</li>
+                                </ul>
+                            </div>
                         </div>
-                        <a href="#0" class="btn btn--white"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-1-of-3">
-          <div class="card">
-              <div class="card__side card__side--front">
-                  <div class="card__picture card__picture--2">
-                       
-                  </div>
-                  <h4 class="card__heading">
-                      <span class="card__heading-span card__heading-span--2">Project Two</span>
-  
-                  </h4>
-                  <div class="card__details">
-                      <ul>
-                          <li>1.</li>
-                          <li>2.</li>
-                          <li>3.</li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-2">
-                  <div class="card__cta">
-                      <div class="card__price-box">
-                          <p class="card__price-only">Project Description</p>
-                          <p class="card__price-value">hellohellohello</p>
-                      </div>
-                      <a href="#0" class="btn btn--white"></a>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-    <div class="row" id="portfolio2">
-        <div class="col-1-of-3">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <div class="card__picture card__picture--1">
-                         
-                    </div>
-                    <h4 class="card__heading">
-                        <span class="card__heading-span card__heading-span--1">Project One</span>
-                    </h4>
-                    <div class="card__details">
-                        <ul>
-                            <li>1.</li>
-                            <li>2.</li>
-                            <li>3.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card__side card__side--back card__side--back-1">
-                    <div class="card__cta">
-                        <div class="card__price-box">
-                            <p class="card__price-only">Project Description</p>
-                            <p class="card__price-value">hellohellohello</p>
-                        </div>
-                        <a href="#0" class="btn btn--white"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-      <div class="col-1-of-3">
-          <div class="card" >
-              <div class="card__side card__side--front">
-                  <div class="card__picture card__picture--3">
-                       
-                  </div>
-                  <h4 class="card__heading">
-                      <span class="card__heading-span card__heading-span--3">Project Three</span>
-  
-                  </h4>
-                  <div class="card__details">
-                      <ul>
-                          <li>1.</li>
-                          <li>2.</li>
-                          <li>3.</li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-3">
-                  <div class="card__cta">
-                      <div class="card__price-box">
-                          <p class="card__price-only">Project Description</p>
-                          <p class="card__price-value">hellohellohello</p>
-                      </div>
-                      <a href="#0" class="btn btn--white"></a>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-    <div class="section3">
-        <div class="icons">
-            <h3 class="h3-skills">SKILLS</h3>
-            <ul class="list-tech">
-                <li><i class="fab fa-html5 fa-3x"></i></li>
-                <li><i class="fab fa-css3-alt fa-3x"></i></li>
-                <li><i class="fab fa-bootstrap fa-3x"></i></li>
-            </ul>
-            <ul class="list-tech">
-                <li><i class="fab fa-js fa-3x"></i></li>
-                <li><i class="fab fa-git-alt fa-3x"></i></li>
-            </ul>
-            </ul> 
-        </div>
-        <div class="icons2">
-            <h3 class="h3-skills2">SKILLS<br>I AM LEARNING</h3>
-            <ul class="list-tech2">
-                <li><i class="fab fa-react"></i></li>
-                <li><i class="fab fa-node-js"></i></li>
-            </ul> 
-        </div>
-    </div>
- 
-    <div class="section4" id="about">
-        <div class="content4">
-            <h3 class="heading4">FRONT END FOCUSED<BR>LEARNING FULL STACK DEVELOPMENT</h3>
-                <div class="container">
-                    <div class="row">
-                      <div class="col">
-                        <p class="float-left">I'm a frontend web developer who has a lifelong passion for the tech industry. Be it websites, apps, games, desktop applications; my long-term goal is to be a strong full stack developer.</p> 
-                        <p class="float-left2">I predominantly work with HTML, CSS and JavaScript, but I am widening my skill set on a daily basis. In particular I intend to learn React JS in the near future</p>  
-                      </div>
-                      <div class="col">
-                        <img src="unnamed.jpg" class="float-right" alt="bitmjoi">
-                      </div>
-                    </div> 
-                </div>      
-        </div>   
-    </div>
+                        <div class="card__side card__side--back card__side--back-1 image-one">
 
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            A back-end booking system, handles 1500+ requests / sec
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="https://davidlshonn.github.io/fixture-and-betting-app/" class="btn btn--white btn--github">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-2">
+                            <div class="card__picture card__picture--6">
+                                &nbsp;
+                            </div>
+                            <img src="#" class="card__svg-icon card__svg-icon-6" alt="">
+                            <div class="card__heading">
+                                <span class="card__heading-span--6">
+                                    Project 2 - Coming Soon
+                                </span>
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-6">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            coming soon
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-3">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <img src="#" class="card__svg-icon card__svg-icon-3" alt="">
+                            <div class="card__heading">
+                                <span class="card__heading-span--3">
+                                    Project 3 - coming soon
+                                </span>
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            coming soon
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--second row-->
+                <div class="row">
+                    <div class="col-1-of-3 single-col">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-4">
+                                <div class="card__picture card__picture--4">
+                                    &nbsp;
+                                </div>
+                                <img src="#" class="card__svg-icon card__svg-icon-4 floating" alt="">
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span--4">
+                                        project 4 - coming soon
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-4">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                coming soon
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn--white btn--github">DEMO</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-2">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <img src="#" class="card__svg-icon card__svg-icon-2" alt="">
+                            <div class="card__heading">
+                                <span class="card__heading-span--2">
+                                    project 5 - coming soon
+                                </span>
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            coming soon
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="col-1-of-3 single-col">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-5">
+                                <div class="card__picture card__picture--5">
+                                    &nbsp;
+                                </div>
+                                <img src="#" class="card__svg-icon card__svg-icon-5 floating" alt="">
+                                <h5 class="card__heading">
+                                    <span class="card__heading-span--5">
+                                      project 6 - coming soon
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-5">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                coming soon
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn--white btn--github">source code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
       
     <footer class="footer">
+        <div class="footer__logo-box">
+            <a href="#top">
+ 
+            </a>
+        </div>
         <div class="row">
             <div class="col-1-of-2">
                 <div class="footer__navigation">
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="https://github.com/harrystead" class="footer__link"><i class="fab fa-github fa-2x"></i></a>
+                            <a href="#" class="footer__link">GitHub</a>
                         </li>
                         <li class="footer__item">
-                            <a href="https://www.linkedin.com/in/harry-stead-37a28b154/" class="footer__link"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#" class="footer__link">LinkedIn</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Resume</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-1-of-2">
                 <p class="footer__copyright">
-                    site by
-                    <a href="#section1" class="footer-link"> Harry J. Stead </a>
+                    <a href=# class="footer__link"> Harry J. Stead </a>
                 </p>
+            <div>
+                <p class="details">email: harrystead9@gmail.com</p>
+                <p class="details">phone: 07947415549</p>
+            </div>
             </div>
         </div>
     </footer>
 
+    <div class="popup" id="popup-2">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#"><img src="" #alt="demo" class="popup__img"></a>
+            </div>
+            <div class="popup__right">
+                <a href="#" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-2">Instalava</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, Express, PostgreSQL</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Live feed, profile pages, followers.
+                    </p>
+                </div>
+                <a href="#" class="btn popup__btn-2">Source Code</a>
+            </div>
+        </div>
+    </div>
 
-  
+    <div class="popup" id="popup-3">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#"><img src="#" alt="Paywaal Demo" class="popup__img"></a>
+            </div>
+            <div class="popup__right">
+                <a href="#" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-3">Paywaal</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Socket.io</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Chat, notifications, add friends. Live.
+                    </p>
+                </div>
+                <a href="#" class="btn popup__btn-3">Source Code</a>
+            </div>
+        </div>
+    </div>
 
-          
-     
+    <div class="popup" id="popup-4">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#"><img src="#" alt="Demo" class="popup__img"></a>
+            </div>
+            <div class="popup__right">
+                <a href="#" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-4"></h3>
+                <h3 class="heading-tertiary u-margin-bottom-small"></h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                     
+                    </p>
+                </div>
+                <a href="#" class="btn popup__btn-4">Source Code</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="popup" id="popup-5">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#">
+<img src="#" alt="Elevator Demo" class="popup__img">
+                </a>
+            </div>
+            <div class="popup__right">
+                <a href="#" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-5"></h3>
+                <h3 class="heading-tertiary u-margin-bottom-small"></h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        
+                    </p>
+                </div>
+                <a href="https://github.com/aj-4/elevator" class="btn popup__btn-5">Source Code</a>
+            </div>
+        </div>
+    </div>
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $('.smooth-goto').on('click', function () {
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top + 50
+            }, 1000);
+        });
+
+    $(document).ready(function(){
+        $('.popup__img').css('visibility', 'visible');        
+    })
+</script>
 
 </html>

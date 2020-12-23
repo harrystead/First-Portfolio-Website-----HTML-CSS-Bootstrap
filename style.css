@@ -452,16 +452,17 @@ nav {
 
         @media (max-width: 56.25em) {
         .footer__navigation {
-            width: 100%;
-            text-align: center; } }
-        .footer__list {
-        list-style: none; 
+          width: 100%;
+          text-align: center; } }
+        .footer_list li {
         text-decoration: none;}
-        .footer__item {
-          display: inline-block; }
+        .footer_item {
+          display: inline-block;
+        }
 
 
-        .footer__copyright {
+
+        .footer_copyright {
           border-top: 1px solid #f1f1f1;
           padding-top: 2rem;
           float: right;
