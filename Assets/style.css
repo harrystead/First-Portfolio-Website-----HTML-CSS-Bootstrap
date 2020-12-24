@@ -35,6 +35,7 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
+  background-color: rgb(255, 255, 255);
 }
 @media (max-width: 56.25em) {
   body {
@@ -280,6 +281,7 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 40rem;
+  margin-bottom: -30px;
 }
 .card__side {
   color: #fff;
@@ -304,8 +306,8 @@ body {
 .card__side--back-1 {
   background-image: linear-gradient(
     to right bottom,
-    #24960d,
-    rgba(72, 185, 19, 0.911)
+    #287e17,
+    rgba(101, 190, 49, 0.616)
   );
 }
 .card__side--back-2 {
@@ -321,7 +323,7 @@ body {
   background-image: linear-gradient(to right bottom, #d6b6258a, #f3cf06fa);
 }
 .card__side--back-6 {
-  background-image: linear-gradient(to right bottom, #8383833a, #2e2e2e63);
+  background-image: linear-gradient(to right bottom, #97017ecc, #4a0075b7);
 }
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
@@ -364,8 +366,8 @@ body {
     url(Calendar-1-9_1.jpg);
 }
 .card__picture--6 {
-  background-image: 
-    url(photo-1594434533760-02e0f3faaa68.jpg);
+  background-image: linear-gradient(to right bottom, #070707b2, #ee2bb34f),
+    url(pexels-photo-3574678.jpg);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -422,8 +424,8 @@ body {
 .card__heading-span--6 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(131, 131, 131, 0.753),
-    rgba(129, 129, 129, 0.404)
+    rgba(255, 254, 254, 0),
+    rgba(129, 129, 129, 0)
   );
 }
 .card__details {
@@ -484,9 +486,9 @@ body {
   width: 25%;
 }
 .card__svg-icon-6 {
-  top: -6%;
-  left: -12%;
-  width: 65%;
+  top: -10%;
+  left: -22%;
+  width: 75%;
 }
 @media (max-width: 56.25em) {
   .card {
