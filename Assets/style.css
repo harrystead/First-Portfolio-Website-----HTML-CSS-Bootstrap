@@ -318,7 +318,7 @@ body {
   background-image: linear-gradient(to right bottom, #106b7283, #d3e9e998);
 }
 .card__side--back-5 {
-  background-image: linear-gradient(to right bottom, #396b2a, #1b2e21);
+  background-image: linear-gradient(to right bottom, #d6b6258a, #f3cf06fa);
 }
 .card__side--back-6 {
   background-image: linear-gradient(to right bottom, #8383833a, #2e2e2e63);
@@ -360,8 +360,8 @@ body {
     url(iStock-531889697.jpg);
 }
 .card__picture--5 {
-  background-image: linear-gradient(to right bottom, #396b2a, #1b2e21),
-    url(../img/dollar.jpg);
+  background-image: linear-gradient(to right bottom, #85272748, #ee2bb34f),
+    url(Calendar-1-9_1.jpg);
 }
 .card__picture--6 {
   background-image: 
@@ -415,8 +415,8 @@ body {
 .card__heading-span--5 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(57, 107, 42, 0.9),
-    rgba(27, 46, 33, 0.9)
+    rgb(255, 193, 24),
+    rgba(235, 178, 57, 0.685)
   );
 }
 .card__heading-span--6 {
