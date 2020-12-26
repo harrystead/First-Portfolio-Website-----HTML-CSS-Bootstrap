@@ -350,19 +350,19 @@ body {
     url(football-pitch-320100_1280.jpg);
 }
 .card__picture--2 {
-  background-image: linear-gradient(to right bottom, #9c1283, #aa2b15),
-    url();
+  background-image: linear-gradient(to right bottom, #fc01b1ef, #4b0d02e3),
+    url(photo-1554224155-1696413565d3.jpg);
 }
 .card__picture--3 {
-  background-image: linear-gradient(to right bottom, #44b2e6, #05044d),
-    url(../img/chatbg.png);
+  background-image: linear-gradient(to right bottom, #e64444, #4d0404),
+    url(photo-1513031300226-c8fb12de9ade.jpg);
 }
 .card__picture--4 {
   background-image: linear-gradient(to right bottom, #ffffff00, #978f1c00),
     url(iStock-531889697.jpg);
 }
 .card__picture--5 {
-  background-image: linear-gradient(to right bottom, #85272748, #ee2bb34f),
+  background-image: linear-gradient(to right bottom, #ff8b0693, #8360014f),
     url(Calendar-1-9_1.jpg);
 }
 .card__picture--6 {
@@ -396,15 +396,15 @@ body {
 .card__heading-span--2 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(156, 18, 131, 0.9),
-    rgba(170, 43, 21, 0.9)
+    rgba(255, 0, 234, 0.322),
+    rgba(170, 43, 21, 0.24)
   );
 }
 .card__heading-span--3 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(68, 178, 230, 0.9),
-    rgba(5, 4, 77, 0.9)
+    rgba(230, 68, 68, 0.753),
+    rgba(77, 4, 4, 0.767)
   );
 }
 .card__heading-span--4 {
@@ -424,8 +424,8 @@ body {
 .card__heading-span--6 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(255, 254, 254, 0),
-    rgba(129, 129, 129, 0)
+    rgba(119, 4, 113, 0.562),
+    rgba(8, 1, 41, 0.719)
   );
 }
 .card__details {
@@ -467,13 +467,15 @@ body {
   top: 5%;
 }
 .card__svg-icon-2 {
-  top: -5%;
+  top: 5%;
   left: 5%;
+  width: 20%;
 }
 .card__svg-icon-3 {
-  width: 18%;
-  top: 7%;
-  left: 7%;
+  width: 30%;
+  top: 4%;
+  left: 5%;
+  filter: brightness(120%)
 }
 .card__svg-icon-4 {
   top: 0%;
