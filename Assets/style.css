@@ -311,19 +311,19 @@ body {
   );
 }
 .card__side--back-2 {
-  background-image: linear-gradient(to right bottom, #f50dca, #e684ff);
+  background-image: linear-gradient(to right bottom, #74005e, #e684ff);
 }
 .card__side--back-3 {
-  background-image: linear-gradient(to right bottom, #ff8080, #ad0808);
+  background-image: linear-gradient(to right bottom, #970000, #ff7d7d);
 }
 .card__side--back-4 {
-  background-image: linear-gradient(to right bottom, #11d9e783, #0400ffe0);
+  background-image: linear-gradient(to right bottom, #00027ecb, #68b9fce0);
 }
 .card__side--back-5 {
-  background-image: linear-gradient(to right bottom, #ffd105, #ffe658);
+  background-image: linear-gradient(to right bottom, #a38500, #ffe866);
 }
 .card__side--back-6 {
-  background-image: linear-gradient(to right bottom, #97017ecc, #4a0075b7);
+  background-image: linear-gradient(to right bottom, #45026bcc, #d68fffb7);
 }
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
