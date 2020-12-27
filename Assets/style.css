@@ -611,3 +611,9 @@ body {
   position: relative;
   top: 40px;
 }
+
+.first-link a:hover,
+.second-link a:hover {
+  color: black;
+  text-decoration: none;
+}
