@@ -306,24 +306,24 @@ body {
 .card__side--back-1 {
   background-image: linear-gradient(
     to right bottom,
-    #287e17,
-    rgba(101, 190, 49, 0.616)
+    #7c0e0e,
+    rgba(155, 76, 76, 0.897)
   );
 }
 .card__side--back-2 {
-  background-image: linear-gradient(to right bottom, #74005e, #e684ff);
+  background-image: linear-gradient(to right bottom, #cf0000, #ff6f6f);
 }
 .card__side--back-3 {
-  background-image: linear-gradient(to right bottom, #970000, #ff7d7d);
+  background-image: linear-gradient(to right bottom, #056b01, #81ff7d);
 }
 .card__side--back-4 {
   background-image: linear-gradient(to right bottom, #00027ecb, #68b9fce0);
 }
 .card__side--back-5 {
-  background-image: linear-gradient(to right bottom, #ffd000, #ffe866);
+  background-image: linear-gradient(to right bottom, #ffc404, #f8e472cc);
 }
 .card__side--back-6 {
-  background-image: linear-gradient(to right bottom, #45026bcc, #d68fffb7);
+  background-image: linear-gradient(to right bottom, #04068bcc, #04b9b9b7);
 }
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
@@ -344,30 +344,30 @@ body {
 .card__picture--1 {
   background-image: linear-gradient(
       to right bottom,
-      #0ea13f,
-      rgba(66, 185, 19, 0.911)
+      #0ea13f00,
+      rgba(66, 185, 19, 0)
     ),
-    url(football-pitch-320100_1280.jpg);
+    url(maxresdefault.jpg);
 }
 .card__picture--2 {
-  background-image: linear-gradient(to right bottom, #fc01b1ef, #4b0d02e3),
-    url(photo-1554224155-1696413565d3.jpg);
+  background-image: linear-gradient(to right bottom, #fc01b100, #4b0d0200),
+    url(210106173237-burger-king-rebranding-video-slug.jpg);
 }
 .card__picture--3 {
-  background-image: linear-gradient(to right bottom, #e64444, #4d0404),
-    url(photo-1513031300226-c8fb12de9ade.jpg);
+  background-image: linear-gradient(to right bottom, #09580291, #044d10),
+    url(photo-1512847930783-39fdc971594b.jpg);
 }
 .card__picture--4 {
   background-image: linear-gradient(to right bottom, #ffffff00, #978f1c00),
     url(iStock-531889697.jpg);
 }
 .card__picture--5 {
-  background-image: linear-gradient(to right bottom, #ff8b0693, #8360014f),
-    url(Calendar-1-9_1.jpg);
+  background-image: linear-gradient(to right bottom, #ff8b0600, #83600100),
+    url(original.jpg);
 }
 .card__picture--6 {
-  background-image: linear-gradient(to right bottom, #070707b2, #ee2bb34f),
-    url(pexels-photo-3574678.jpg);
+  background-image: linear-gradient(to right bottom, #07070709, #ee2bb300),
+    url(stock-market-graph.jpg);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -389,22 +389,23 @@ body {
 .card__heading-span--1 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(15, 179, 24, 0.9),
-    rgba(23, 168, 18, 0.9)
+    rgb(204, 67, 67),
+    rgba(119, 29, 29, 0.226)
   );
 }
 .card__heading-span--2 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(255, 0, 234, 0.322),
-    rgba(170, 43, 21, 0.24)
+    rgba(255, 187, 0, 0.74),
+    rgba(253, 145, 57, 0.747)
   );
 }
+
 .card__heading-span--3 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(230, 68, 68, 0.753),
-    rgba(77, 4, 4, 0.767)
+    rgba(2, 133, 13, 0.664),
+    rgba(21, 31, 170, 0.24)
   );
 }
 .card__heading-span--4 {
@@ -417,15 +418,15 @@ body {
 .card__heading-span--5 {
   background-image: linear-gradient(
     to right bottom,
-    rgb(255, 193, 24),
-    rgba(235, 178, 57, 0.685)
+    rgba(255, 174, 24, 0.753),
+    rgba(253, 180, 23, 0.616)
   );
 }
 .card__heading-span--6 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(119, 4, 113, 0.562),
-    rgba(8, 1, 41, 0.719)
+    rgba(4, 25, 119, 0.781),
+    rgba(4, 174, 196, 0.705)
   );
 }
 .card__details {
@@ -461,18 +462,18 @@ body {
   margin-bottom: 1.5rem;
 }
 .card__svg-icon {
-  width: 30%;
+  width: 70%;
   position: absolute;
-  left: 5%;
-  top: 5%;
+  left: -16%;
+  top: -7%;
 }
 .card__svg-icon-2 {
-  top: 5%;
-  left: 5%;
-  width: 20%;
+  top: 2%;
+  left: 0%;
+  width: 35%;
 }
 .card__svg-icon-3 {
-  width: 30%;
+  width: 35%;
   top: 4%;
   left: 5%;
   filter: brightness(120%)
@@ -484,13 +485,13 @@ body {
 }
 .card__svg-icon-5 {
   top: 2%;
-  left: -4%;
-  width: 25%;
+  left: -8%;
+  width: 30%;
 }
 .card__svg-icon-6 {
-  top: -10%;
-  left: -22%;
-  width: 75%;
+  top: 4%;
+  left: 0%;
+  width: 30%;
 }
 @media (max-width: 56.25em) {
   .card {
