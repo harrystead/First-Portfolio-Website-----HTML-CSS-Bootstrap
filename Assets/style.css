@@ -359,7 +359,7 @@ body {
 }
 .card__picture--4 {
   background-image: linear-gradient(to right bottom, #ffffff00, #978f1c00),
-    url(iStock-531889697.jpg);
+    url(race-801940_1280.webp);
 }
 .card__picture--5 {
   background-image: linear-gradient(to right bottom, #ff8b0600, #83600100),
@@ -367,7 +367,7 @@ body {
 }
 .card__picture--6 {
   background-image: linear-gradient(to right bottom, #07070709, #ee2bb300),
-    url(stock-market-graph.jpg);
+    url(clothing-store-984396_1280.webp);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -411,22 +411,22 @@ body {
 .card__heading-span--4 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(14, 104, 107, 0.726),
-    rgba(28, 50, 151, 0.322)
+    rgba(255, 0, 0, 0.459),
+    rgba(255, 180, 19, 0.322)
   );
 }
 .card__heading-span--5 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(255, 174, 24, 0.753),
+    rgba(255, 220, 24, 0.897),
     rgba(253, 180, 23, 0.616)
   );
 }
 .card__heading-span--6 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(4, 25, 119, 0.781),
-    rgba(4, 174, 196, 0.705)
+    rgba(255, 238, 0, 0.527),
+    rgba(255, 231, 11, 0.425)
   );
 }
 .card__details {
@@ -481,7 +481,7 @@ body {
 .card__svg-icon-4 {
   top: 0%;
   left: -10%;
-  width: 30%;
+  width: 43%;
 }
 .card__svg-icon-5 {
   top: 2%;
