@@ -202,7 +202,7 @@ body {
 }
 
 .u-margin-bottom-big {
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 
 .u-margin-bottom-medium {
@@ -527,6 +527,15 @@ body {
   .card__box {
     text-align: center;
   }
+}
+
+.a-tag {
+  text-decoration: none;
+  color: rgb(50, 163, 255);
+}
+
+.a-tag:hover {
+  border-bottom: 2px solid rgb(50, 163, 255);
 }
 
 .row {
